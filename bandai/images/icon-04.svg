@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_04" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <style>
+            .cls-2,.cls-6{fill:none}.cls-2{stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}.cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="그룹_3232" transform="translate(-3988.259 -983.496)">
+        <path id="패스_4527" d="M4005.586 1029.277V997.7l-6.327-4.162" class="cls-2"/>
+        <path id="선_42" d="M28.882 0L0 0" class="cls-2" transform="translate(4011.69 1035.381)"/>
+        <circle id="타원_151" cx="6.104" cy="6.104" r="6.104" fill="#888" transform="translate(3999.482 1029.277)"/>
+        <g id="그룹_3230">
+            <path id="사각형_12295" d="M0 0H23.954V22.834H0z" class="cls-2" transform="translate(4013.049 1004.908)"/>
+        </g>
+        <g id="그룹_3231" transform="translate(-4.345)">
+            <path id="패스_4538" d="M0 0h14.943v14.244H0z" class="cls-2" transform="translate(4017.395 990.496)"/>
+        </g>
+    </g>
+    <g id="사각형_12303" fill="#fff" stroke="#222" stroke-linejoin="round" stroke-width="2px">
+        <path d="M0 0H12V6H0z" class="cls-5" transform="translate(31 25)"/>
+        <path d="M1 1H11V5H1z" class="cls-6" transform="translate(31 25)"/>
+    </g>
+</svg>

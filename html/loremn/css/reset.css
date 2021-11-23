@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  /* font-size: 0; */
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ol,
+ul {
+  list-style: none;
+}

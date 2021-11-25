@@ -66,18 +66,206 @@
     <div id="container">
       <section class="title">
         <h2>공지사항</h2>
+        <span>알림마당</span>
+        <span>-</span>
+        <span>공지사항</span>
         <div class="title__right-menu">
-          <span>Home</span>
-          <span>></span>
-          <span>알림마당</span>
-          <span>></span>
-          <span>공지사항</span>
+          <div class="title__right-text">
+            <a href="#none">
+              <span>Home</span>
+            </a>
+            <span>></span>
+            <a href="#none">
+              <span>알림마당</span>
+            </a>
+            <span>></span>
+            <a href="#none">
+              <span>공지사항</span>
+            </a>
+          </div>
+          <div class="title__icon">
+            <a href="#none" title="URL복사">
+              <img src="./images/icon_sub_01.gif" alt="URL복사" />
+            </a>
+            <a href="#none" title="인쇄 새창열림">
+              <img src="./images/icon_sub_02.gif" alt="인쇄 새창열림" />
+            </a>
+            <a href="#none" title="페이스북 새창열림">
+              <img src="./images/icon_sub_03.gif" alt="페이스북 새창열림" />
+            </a>
+            <a href="#none" title="트위터 새창열림">
+              <img src="./images/icon_sub_04.gif" alt="트위터 새창열림" />
+            </a>
+            <a href="#none" title="카카오톡 새창열림">
+              <img src="./images/icon_sub_07.gif" alt="카카오톡 새창열림" />
+            </a>
+            <a href="#none" title="RSS 새창열림">
+              <img src="./images/icon_sub_05.gif" alt="RSS 새창열림" />
+            </a>
+          </div>
         </div>
       </section>
       <section class="content">
-        <!-- 게시글 -->
+        <form action="#none" class="search">
+          <div class="search__list-total">
+            <span><b>전체&nbsp;</b></span>
+            <span><b class="search__blue-text">867</b></span>
+            <span><b>건,&nbsp;</b></span>
+            <span>현재&nbsp;</span>
+            <span class="search__strong-text">1</span>
+            <span>페이지</span>
+            <span>/ 전체&nbsp;</span>
+            <span class="search__strong-text">58</span>
+            <span>페이지의 게시물이 등록되어 있습니다.</span>
+          </div>
+          <div class="search__list-select">
+            <select name="select" id="select">
+              <option value="">전체</option>
+              <option value="">제목</option>
+              <option value="">내용</option>
+            </select>
+            <input type="text" name="search" id="search" placeholder="" />
+            <button type="submit">찾기</button>
+          </div>
+        </form>
+        <ul class="board__list">
+          <li class="board__writing">
+            <div class="board__writing-title">
+              <span class="notice">공지</span>
+              <a href="#none">[필독] 창업기획자 등록메뉴얼</a>
+            </div>
+            <span class="date">2020-12-29</span>
+            <span class="line">|</span>
+            <span class="view">조회수 8,441</span>
+          </li>
+          <li class="board__writing">
+            <div class="board__writing-title">
+              <span class="notice">공지</span>
+              <a href="#none">2020년 메이커 스페이스 구축·운영 사업관리지침</a>
+            </div>
+            <span class="date">2020-12-29</span>
+            <span class="line">|</span>
+            <span class="view">조회수 5,959</span>
+          </li>
+          <li class="board__writing">
+            <div class="board__writing-title">
+              <span class="notice">공지</span>
+              <a href="#none">메이커 스페이스 주관기관 소개자료</a>
+            </div>
+            <span class="date">2020-10-14</span>
+            <span class="line">|</span>
+            <span class="view">조회수 2,345</span>
+          </li>
+          <li class="board__writing">
+            <div class="board__writing-title">
+              <a href="#none">비대면 서비스 바우처 사업 관리지침</a>
+            </div>
+            <span class="date">2021-09-03</span>
+            <span class="line">|</span>
+            <span class="view">조회수 1,003</span>
+          </li>
+          <li class="board__writing">
+            <div class="board__writing-title">
+              <a href="#none"
+                >2021년 예비창업패키지 세부 관리기준 3차 개정본 예시</a
+              >
+            </div>
+            <span class="date">2021-08-07</span>
+            <span class="line">|</span>
+            <span class="view">조회수 1,410</span>
+          </li>
+          <li class="board__writing">
+            <div class="board__writing-title">
+              <a href="#none">창조경제혁신센터 성과 자료집</a>
+            </div>
+            <span class="date">2021-09-07</span>
+            <span class="line">|</span>
+            <span class="view">조회수 141</span>
+          </li>
+          <li class="board__writing">
+            <div class="board__writing-title">
+              <a href="#none"
+                >한눈에 보는 창업동향(2020년 창업기업실태조사, '18년기준)</a
+              >
+            </div>
+            <span class="date">2021-09-07</span>
+            <span class="line">|</span>
+            <span class="view">조회수 5,959</span>
+          </li>
+        </ul>
+        <div class="page">
+          <a href="#none" class="page__prev-end">처음</a>
+          <a href="#none" class="page__prev">이전</a>
+          <a href="#none" class="page__number page__now">1</a>
+          <a href="#none" class="page__number">2</a>
+          <a href="#none" class="page__number">3</a>
+          <a href="#none" class="page__number">4</a>
+          <a href="#none" class="page__number">5</a>
+          <a href="#none" class="page__number">6</a>
+          <a href="#none" class="page__number">7</a>
+          <a href="#none" class="page__number">8</a>
+          <a href="#none" class="page__number">9</a>
+          <a href="#none" class="page__number">10</a>
+          <a href="#none" class="page__next">다음</a>
+          <a href="#none" class="page__next-end">마지막</a>
+        </div>
       </section>
+      <aside>
+        <h2 class="aside__title">알림마당</h2>
+        <ul class="aside__wrap">
+          <li class="aside__list">
+            <a href="#none" class="aside__link">공지사항</a>
+          </li>
+          <li class="aside__list">
+            <a href="#none" class="aside__link">K-Startup Issue & Trend</a>
+          </li>
+          <li class="aside__list">
+            <a href="#none" class="aside__link">카드뉴스</a>
+          </li>
+          <li class="aside__list">
+            <a href="#none" class="aside__link">창업소식</a>
+          </li>
+          <li class="aside__list">
+            <a href="#none" class="aside__link">창업길라잡이</a>
+          </li>
+          <li class="aside__list">
+            <a href="#none" class="aside__link">창업성공사례</a>
+          </li>
+          <li class="aside__list">
+            <a href="#none" class="aside__link">창업통계·연구자료</a>
+          </li>
+        </ul>
+      </aside>
     </div>
-    <footer></footer>
+    <footer>
+      <div class="top-footer">
+        <!-- height 55px -->
+        <div class="top-footer__left">
+          <a href="#none">개인정보처리방침</a>
+          <a href="#none">이용약관</a>
+        </div>
+        <div class="top-footer__right">
+          <a href="#none">뉴스레터 신청하기</a>
+          <a href="#none">
+            <img src="./images/footer_newsletter.png" alt="뉴스레터 신청하기" />
+          </a>
+          <a href="#wrap" class="button-up" title="맨 위로" onclick="goTop">
+            <span class="button-up__img"></span>
+          </a>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <!-- height 145px -->
+        <div class="bottom-footer__info">
+          <!-- 로고, 주소, copyright -->
+        </div>
+        <div class="bottom-footer__logo">
+          <!-- 인증 로고 -->
+        </div>
+      </div>
+    </footer>
+    <script>
+      // goTop button
+    </script>
   </body>
 </html>

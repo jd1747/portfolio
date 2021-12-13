@@ -4,7 +4,7 @@
 .container {
   font-family: "Noto Sans KR", sans-serif;
 }
-.main_banner {
+.main-banner {
   padding-top: 50px;
   max-width: 1903px;
   min-width: 1200px;
@@ -13,18 +13,18 @@
   background-color: #ffcc00;
   text-align: center;
 }
-.main_banner div span {
+.main-banner div span {
   align-items: center;
 }
-.main_banner > div:nth-child(1) {
+.main-banner > div:nth-child(1) {
   margin-bottom: 15px;
   font-size: 36px;
 }
-.main_banner > div:nth-child(2) {
+.main-banner > div:nth-child(2) {
   margin-bottom: 30px;
   font-size: 56px;
 }
-.main_banner .search_box {
+.main-banner__search-box {
   width: 584px;
   margin: auto;
   height: 67px;
@@ -32,15 +32,15 @@
   border-radius: 5px;
   text-align: left;
 }
-.search_box div {
+.main-banner__search-box div {
   display: inline-block;
   vertical-align: middle;
 }
-.search_lenz {
+.main-banner__search-lenz {
   margin-top: 10px;
   margin-left: 25px;
 }
-.search_box div span {
+.main-banner__search-box div span {
   margin-left: 15px;
   font-size: 30px;
   color: #ccc;
@@ -53,26 +53,26 @@
 .contents article {
   margin-top: 70px;
 }
-.text_area,
-.advertise {
+.contents__text-area,
+.contents__advertise {
   margin-left: 8px;
   font-size: 24px;
 }
-.text_area {
+.contents__text-area {
   height: 60px;
 }
-.image_area,
-.help_image_area {
+.contents__image-area,
+.contents__newbie-help__help-image {
   font-size: 0;
 }
-.image_area div {
+.contents__image-area div {
   display: inline-block;
   margin: 0 8px;
 }
-.image_area div a img {
+.contents__image-area div a img {
   border-radius: 10px;
 }
-.help_image_area div {
+.contents__newbie-help__help-image div {
   display: inline-block;
   margin: 0 8px;
 }

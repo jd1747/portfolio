@@ -11,36 +11,36 @@ header article {
   font-size: 16px;
   border-bottom: 1px solid #ccc;
 }
-.upper_header_nav,
-.lower_header_nav {
+.header__navigation-up,
+.header__navigation-down {
   margin: auto;
   width: 1184px;
   height: 50px;
   text-align: right;
 }
-.upper_header_nav div {
+.header__navigation-up div {
   margin-top: 15px;
   display: inline-block;
   width: 100px;
   height: 30px;
   text-align: center;
 }
-.signin {
+.header__navigation-up--signin {
   border: 1px solid #009900;
   border-radius: 5px;
   color: #009900;
 }
-.lower_header_nav {
+.header__navigation-down {
   height: 60px;
   text-align: left;
 }
-.logo,
-.categories_menu,
-.categories_menu li {
+.header__navigation-down--logo,
+.header__navigation-down--categories_menu,
+.header__navigation-down--categories_menu li {
   margin-top: 10px;
   display: inline-block;
 }
-.categories_menu li {
+.header__navigation-down--categories_menu li {
   margin-right: 30px;
 }
 footer {
@@ -56,7 +56,7 @@ footer > article {
   text-align: center;
   font-size: 0;
 }
-.footer_main {
+.footer__main {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -64,8 +64,8 @@ footer > article {
   color: #fff;
   border-bottom: 1px solid #fff;
 }
-.footer_main_left,
-.footer_main_right {
+.footer__main-left,
+.footer__main-right {
   margin: 0 8px;
   width: 584px;
   height: 220px;
@@ -73,52 +73,52 @@ footer > article {
   vertical-align: text-top;
   font-size: 16px;
 }
-.footer_main_right {
+.footer__main-right {
   display: flex;
 }
-.footer_main_left > div:first-child {
+.footer__main-left > div:first-child {
   font-size: 24px;
   margin-top: 35px;
 }
-.footer_main_left > div:nth-child(2),
-.footer_main_left > div:nth-child(3),
-.footer_main_left > div:nth-child(4) {
+.footer__main-left > div:nth-child(2),
+.footer__main-left > div:nth-child(3),
+.footer__main-left > div:nth-child(4) {
   margin-top: 10px;
 }
-.footer_consult {
+.footer__main-left--consult {
   width: 100px;
   height: 36px;
   border: 1px solid #fff;
   border-radius: 5px;
   text-align: center;
 }
-.footer_consult a span {
+.footer__main-left--consult a span {
   vertical-align: middle;
 }
-.footer_loremn,
-.footer_relative_sites,
-.footer_support {
+.footer__main-right--loremn,
+.footer__main-right--relative_sites,
+.footer__main-right--support {
   width: 184px;
   height: 220px;
 }
-.footer_main_right div div:first-child {
+.footer__main-right div div:first-child {
   margin: 35px 0 10px;
 }
-.footer_copyright {
+.footer__copyright {
   height: 160px;
 }
-.footer_information,
-.footer_rights_reserved {
+.footer__copyright--information,
+.footer__rights-reserved {
   padding-top: 45px;
   font-size: 16px;
   color: #fff;
 }
-.footer_information span {
+.footer__copyright--information span {
   margin: 5px;
 }
-.check_business_info {
+.footer__copyright--check-business-info {
   border: 1px solid #fff;
 }
-.footer_rights_reserved {
+.footer__rights-reserved {
   padding-top: 30px;
 }

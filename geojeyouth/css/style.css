@@ -34,39 +34,39 @@ header {
   width: 1400px;
   height: 96px;
 }
-header .logo {
+.header__logo {
   margin-top: 20px;
 }
-header .menu {
+.header__menu {
   padding-top: 35px;
 }
-header .util-menu {
+.header__util-menu {
   float: right;
 }
-header .util-menu a {
+.header__util-menu a {
   vertical-align: middle;
 }
-.logo {
+.header__logo {
   float: left;
 }
-.menu .mainmenu {
+.header__menu--main {
   margin-left: 460px;
 }
-.menu li {
+.header__menu li {
   position: relative;
   padding: 5px 15px;
   float: left;
 }
-.text-menu {
+.header__menu--text-menu {
   font-size: 19px;
 }
-.text-util-menu {
+.header__util-menu--text {
   padding: 5px 15px;
   font-size: 16px;
   color: #666;
 }
 /* Header - submenu */
-.submenu {
+.header__menu--submenu {
   position: absolute;
   top: 150%;
   left: -30%;
@@ -79,14 +79,14 @@ header .util-menu a {
   box-shadow: 0 0 10px rgb(0, 0, 0 / 8%);
   transition: all 0.35s;
 }
-.submenu li {
+.header__menu--submenu li {
   width: 100%;
   height: 45px;
   line-height: 45px;
   background-color: #fff;
   border: 1px solid #e5e5e5;
 }
-.mainmenu li:hover .submenu {
+.header__menu--submenu li:hover .submenu {
   top: 110%;
   visibility: visible;
 }
@@ -168,10 +168,10 @@ header .util-menu a {
   overflow: hidden;
   position: relative;
 }
-.main-top .notice {
+.main-top__notice {
   width: 580px;
 }
-.notice h3 {
+.main-top__notice h3 {
   display: block;
   font-size: 22px;
   margin-bottom: 25px;
@@ -179,15 +179,15 @@ header .util-menu a {
   color: #0e62b2;
   background: url(../images/img_bg_line.png) repeat-x 100% 100%;
 }
-.main-top .notice ul li {
+.main-top__notice ul li {
   height: 52px;
   border-bottom: 1px solid #ccc;
   font-size: 16px;
 }
-.main-top .notice ul li:last-child {
+.main-top__notice ul li:last-child {
   border: none;
 }
-.main-top .notice ul li a:first-child {
+.main-top__notice ul li a:first-child {
   width: 68%;
   padding: 14px 0;
 }
@@ -201,19 +201,19 @@ header .util-menu a {
   top: 45px;
   right: 32px;
 }
-.main-top .notice a:first-child {
+.main-top__notice a:first-child {
   display: inline-block;
 }
-.main-top .schedule {
+.main-top__schedule {
   width: 390px;
 }
-.schedule h3 {
+.main-top__schedule h3 {
   display: block;
   font-size: 22px;
   padding-bottom: 20px;
   color: #0e62b2;
 }
-.calendar-top {
+.main-top__schedule--calendar-top {
   position: relative;
   text-align: center;
 }
@@ -280,32 +280,32 @@ header .util-menu a {
 thead {
   width: 100%;
 }
-.area-box {
+.main-top__area-box {
   padding: 0;
   width: 380px;
   border: none;
 }
-.area-box ul {
+.main-top__area-box ul {
   width: 380px;
   margin-right: 0;
 }
-.area-box ul li a {
+.main-top__area-box ul li a {
   width: 182px;
   height: 182px;
   float: left;
   margin: 0 8px 8px 0;
   text-overflow: ellipsis;
 }
-.area-box ul li:nth-child(1) a {
+.main-top__area-box ul li:nth-child(1) a {
   background-image: url("../images/img_ban01.jpg");
 }
-.area-box ul li:nth-child(2) a {
+.main-top__area-box ul li:nth-child(2) a {
   background-image: url("../images/img_ban02.jpg");
 }
-.area-box ul li:nth-child(3) a {
+.main-top__area-box ul li:nth-child(3) a {
   background-image: url("../images/img_ban03.jpg");
 }
-.area-box ul li:nth-child(4) a {
+.main-top__area-box ul li:nth-child(4) a {
   background-image: url("../images/img_ban04.jpg");
 }
 /* Main: gallery */
@@ -314,28 +314,28 @@ thead {
   height: 550px;
   background-color: #0066cc;
 }
-.gallery-container {
+.gallery__container {
   width: 1400px;
   height: 550px;
   padding-top: 75px;
   margin: 0 auto;
 }
-.photo {
+.gallery__container--photo {
   width: 960px;
   float: left;
   position: relative;
   overflow: hidden;
   font-size: 16px;
 }
-.photo ul {
+.gallery__container--photo ul {
   margin-top: 20px;
 }
-.photo h2,
+.gallery__container--photo h2,
 .video h2 {
   font-size: 22px;
   color: #fff;
 }
-.photo li {
+.gallery__container--photo li {
   position: relative;
   float: left;
   width: 32%;
@@ -344,31 +344,31 @@ thead {
   text-align: center;
   background: #fff;
 }
-.photo li:last-child {
+.gallery__container--photo li:last-child {
   margin: 0;
 }
-.photo li:hover {
+.gallery__container--photo li:hover {
   box-shadow: 15px 15px 34px rgba(0, 0, 0, 0.28);
 }
-.photo li:hover img {
+.gallery__container--photo li:hover img {
   opacity: 0.5;
   transition: all 1s;
 }
-.photo li img {
+.gallery__container--photo li img {
   width: 100%;
   height: 195px;
 }
-.photo li p {
+.gallery__container--photo li p {
   padding: 20px 45px;
 }
-.photo li span {
+.gallery__container--photo li span {
   display: block;
   position: absolute;
   left: 50%;
   bottom: 10px;
   transform: translateX(-50%);
 }
-.photo .btn-more,
+.gallery__container--photo .btn-more,
 .video .btn-more {
   position: absolute;
   top: 0;
@@ -474,65 +474,65 @@ footer {
   background-color: #333;
   color: #888;
 }
-.footer-up {
+.footer__top {
   margin: auto;
   width: 1400px;
   height: 163px;
 }
-.footer-up-box {
+.footer__top--box {
   position: relative;
   width: auto;
   padding-top: 15px;
 }
-.footer-box-element {
+.footer__top--element {
   display: inline-block;
   padding: 15px 0 10px 0;
   font-size: 13px;
 }
-.footer-box-element li {
+.footer__top--element li {
   float: left;
   margin-right: 14px;
 }
-.footer-box-element li a {
+.footer__top--element li a {
   display: block;
   padding: 4px 10px;
   border: 1px solid rgba(238, 238, 238, 0.2);
   border-radius: 4px;
 }
-address {
+.footer__top--address {
   margin-top: 10px;
   font-style: normal;
   font-size: 14px;
 }
-.address-up {
+.footer__top--address-up {
   margin-bottom: 6px;
 }
-.address-up span {
+.footer__top--address-up span {
   display: inline-block;
   margin-right: 10px;
 }
-.address-up span:nth-child(2) {
+.footer__top--address-up span:nth-child(2) {
   color: #555;
 }
-.address-down span {
+.footer__top--address-down span {
   display: inline-block;
   margin-right: 6px;
 }
 .address-down span:first-child {
   color: #555;
 }
-.footer-down {
+.footer__down {
   margin: auto;
   width: 1400px;
   height: 80px;
   border-top: 1px solid rgba(255, 255, 255, 0.04);
   font-size: 14px;
 }
-.footer-down p {
+.footer__down p {
   margin-top: 25px;
   letter-spacing: 0.2px;
 }
-.button-top {
+.footer__top--button-top {
   position: absolute;
   top: 50px;
   right: 0;
@@ -541,7 +541,7 @@ address {
   border-radius: 4px;
   background-color: #f74141;
 }
-.button-top span {
+.footer__top--button-top span {
   position: absolute;
   top: 50%;
   right: 50%;

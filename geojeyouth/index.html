@@ -15,19 +15,19 @@
   </head>
   <body>
     <header>
-      <div class="logo">
+      <div class="header__logo">
         <a href="index.html">
           <img src="images/img_logo.png" alt="" />
-          <span class="text-hidden">거제청년센터 이룸</span>
+          <span class="header__text-hidden">거제청년센터 이룸</span>
         </a>
       </div>
-      <nav class="menu">
-        <ul class="mainmenu">
+      <nav class="header__menu">
+        <ul class="header__menu--main">
           <li>
             <a href="#none">
-              <span class="text-menu">청년센터</span>
+              <span class="header__menu--text-menu">청년센터</span>
             </a>
-            <ul class="submenu">
+            <ul class="header__menu--submenu">
               <li>
                 <a href="#none">청년센터소개</a>
               </li>
@@ -47,9 +47,9 @@
           </li>
           <li>
             <a href="#none">
-              <span class="text-menu">청년정책</span>
+              <span class="header__menu--text-menu">청년정책</span>
             </a>
-            <ul class="submenu">
+            <ul class="header__menu--submenu">
               <li>
                 <a href="#none">정책소식</a>
               </li>
@@ -75,9 +75,9 @@
           </li>
           <li>
             <a href="#none">
-              <span class="text-menu">청년일자리</span>
+              <span class="header__menu--text-menu">청년일자리</span>
             </a>
-            <ul class="submenu">
+            <ul class="header__menu--submenu">
               <li>
                 <a href="#none">일자리정책</a>
               </li>
@@ -97,9 +97,9 @@
           </li>
           <li>
             <a href="#none">
-              <span class="text-menu">사업소개</span>
+              <span class="header__menu--text-menu">사업소개</span>
             </a>
-            <ul class="submenu">
+            <ul class="header__menu--submenu">
               <li>
                 <a href="#none">사업안내</a>
               </li>
@@ -110,9 +110,9 @@
           </li>
           <li>
             <a href="#none">
-              <span class="text-menu">공간예약</span>
+              <span class="header__menu--text-menu">공간예약</span>
             </a>
-            <ul class="submenu">
+            <ul class="header__menu--submenu">
               <li>
                 <a href="#none">공간신청</a>
               </li>
@@ -123,9 +123,9 @@
           </li>
           <li>
             <a href="#none">
-              <span class="text-menu">커뮤니티</span>
+              <span class="header__menu--text-menu">커뮤니티</span>
             </a>
-            <ul class="submenu">
+            <ul class="header__menu--submenu">
               <li>
                 <a href="#none">이룸소식</a>
               </li>
@@ -144,20 +144,20 @@
             </ul>
           </li>
         </ul>
-        <div class="util-menu">
+        <div class="header__util-menu">
           <a href="#none">
-            <span class="text-util-menu">로그인</span>
+            <span class="header__util-menu--text">로그인</span>
           </a>
           <a href="#none">
-            <span class="text-util-menu">회원가입</span>
+            <span class="header__util-menu--text">회원가입</span>
           </a>
           <a href="#none">
-            <img src="images/img_allmenu.png" alt="전체메뉴" />
+            <img class="header__util-menu--image" src="images/img_allmenu.png" alt="전체메뉴" />
           </a>
         </div>
       </nav>
     </header>
-    <container class="main">
+    <div class="main">
       <section class="top-banner">
         <div class="area_visual">
           <ul class="banner">
@@ -166,7 +166,7 @@
             <li class="banner-image"></li>
           </ul>
           </div>
-        </div>
+        </>
         <div class="quick-menu">
           <ul>
             <li>
@@ -203,7 +203,7 @@
         </div>
       </section>
       <section class="main-top">
-        <div class="notice">
+        <div class="main-top__notice">
           <h3>공지사항</h3>
           <a href="#none" class="btn-more">+ 전체보기</a>
           <ul>
@@ -227,10 +227,10 @@
             </li>
           </ul>
         </div>
-        <div class="schedule">
+        <div class="main-top__schedule">
           <h3>센터일정</h3>
           <a href="#none" class="btn-more">+ 전체보기</a>
-          <div class="calendar-top">
+          <div class="main-top__schedule--calendar-top">
             <a href="#none" class="calendar-btn-prev"></a>
             <span class="calendar-month">2021.11</span>
             <a href="#none" class="calendar-btn-next"></a>
@@ -360,7 +360,7 @@
             </table>
           </div>
         </div>
-        <div class="area-box">
+        <div class="main-top__area-box">
           <ul>
             <li>
               <a href="#none"></a>
@@ -378,8 +378,8 @@
         </div>
       </section>
       <section class="gallery">
-        <div class="gallery-container">
-          <div class="photo">
+        <div class="gallery__container">
+          <div class="gallery__container--photo">
             <h2>활동 갤러리</h2>
             <ul>
               <li>
@@ -509,11 +509,11 @@
           </ul>
         </div>
       </section>
-    </container>
+    </div>
     <footer>
-      <div class="footer-up">
-        <div class="footer-up-box">
-          <ul class="footer-box-element">
+      <div class="footer__top">
+        <div class="footer__top--box">
+          <ul class="footer__top--element">
             <li>
               <a href="#none">개인정보처리방침</a>
             </li>
@@ -524,13 +524,13 @@
               <a href="#none">이메일무단수집거부</a>
             </li>
           </ul>
-          <address>
-            <div class="address-up">
+          <address class="footer__top--address">
+            <div class="footer__top--address-up">
               <span>거제청년센터</span>
               <span>이용시간</span>
               <span>평일 9시-18시 (토요일/일요일/공휴일 휴무)</span>
             </div>
-            <div class="address-down">
+            <div class="footer__top--address-down">
               <span>주소</span>
               <span
                 >경남 거제시 계룡로11길 21 1층 거제청년센터 이룸 (지번주소: 경남
@@ -538,17 +538,17 @@
               >
             </div>
           </address>
-          <a href="#wrap" class="button-top" title="맨 위로" onclick="goTop">
+          <a href="#wrap" class="footer__top--button-top" title="맨 위로" onclick="goTop">
             <span></span>
           </a>
         </div>
       </div>
-      <div class="footer-down">
+      <div class="footer__down">
         <p>Copyright © 거제청년센터이룸. All right reserved.</p>
       </div>
     </footer>
     <script>
-      const topButton = document.querySelector(".button-top");
+      const topButton = document.querySelector(".footer__top--button-top");
       const goTop = () => {
         window.scrollTo({
           top: 0,

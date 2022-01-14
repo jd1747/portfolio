@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>K-Water similar ver.</title>
+  </head>
+  <body>
+    <!-- Goal 1 : PC화면 페이지와 "비슷하게" 디자인 -->
+    <!-- Goal 2 : 반응형 (시간 보고) -->
+    <header class="page-header">
+      <div class="page-header__content">
+        <h1 class="page-header__logo">
+          <a href="./index.html">"K water"</a>
+        </h1>
+        <ul class="page-header__nav">
+          <!-- 서브메뉴 구현은 일단 보류 -->
+          <li class="page-header__nav--menu">
+            <a href="#none" class="page-header__nav--menu-text">열린경영</a>
+          </li>
+          <li class="page-header__nav--menu">
+            <a href="#none" class="page-header__nav--menu-text">국민소통</a>
+          </li>
+          <li class="page-header__nav--menu">
+            <a href="#none" class="page-header__nav--menu-text">새소식</a>
+          </li>
+          <li class="page-header__nav--menu">
+            <a href="#none" class="page-header__nav--menu-text"
+              >대국민 서비스</a
+            >
+          </li>
+          <li class="page-header__nav--menu">
+            <a href="#none" class="page-header__nav--menu-text">기관소개</a>
+          </li>
+        </ul>
+        <div class="page-header__util">
+          <div class="page-header__util--menu">
+            <!-- english -> 로그인으로 바꿈 -->
+            <a href="#none" class="page-header__util--menu-text">로그인</a>
+            <a href="#none" class="page-header__util--menu-text"></a>
+            <a href="#none" class="page-header__util--menu-text"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <!-- 메인 메시지를 위로 올리고, 팝업존도 이 쪽으로 올림 -->
+      <div class="main__message">
+        <img
+          src="./images/main_textimage.png"
+          alt="세상에 행복을 水놓다 : World Top K-water"
+          class="main__message--title"
+        />
+        <div class="main__slider" style="font-size: 16px">(Pop-up Zone)</div>
+      </div>
+    </div>
+    <div class="introduce">
+      <div class="introduce__content">
+        <div class="introduce__intro">
+          <img
+            src="./images/water-blue.png"
+            alt=""
+            class="introduce__intro-icon"
+          />
+          <h2 class="introduce__intro-title">K-water</h2>
+          <p class="introduce__intro-text">
+            국가 물안전과 국민 물복지의 초석을 다져온 K-water!
+          </p>
+        </div>
+        <div class="introduce__detail">
+          <div class="introduce__detail--box">
+            <a href="#none" class="introduce__detail--box-click introduce-ceo">
+              <h3 class="introduce__detail--box-title ceo-white">
+                K-Water CEO
+              </h3>
+              <div class="introduce__detail--box-line"></div>
+              <p class="introduce__detail--box-text">
+                깨끗하고 소중한 물로 더 행복한 대한민국을 만들겠습니다.
+              </p>
+              <span class="introduce__detail--box-arrow"></span>
+            </a>
+          </div>
+          <div class="introduce__detail--box">
+            <a
+              href="#none"
+              class="introduce__detail--box-click introduce-management"
+            >
+              <h3 class="introduce__detail--box-title">경영철학</h3>
+              <div class="introduce__detail--box-line"></div>
+              <p class="introduce__detail--box-text">
+                K-water의 경영철학을 살펴보세요.
+              </p>
+              <span class="introduce__detail--box-arrow"></span>
+            </a>
+          </div>
+          <div class="introduce__detail--box">
+            <a
+              href="#none"
+              class="introduce__detail--box-click introduce-organization"
+            >
+              <h3 class="introduce__detail--box-title">조직도/직원검색</h3>
+              <div class="introduce__detail--box-line"></div>
+              <p class="introduce__detail--box-text">
+                깨끗한 물을 만드는 K-water의 가족입니다.
+              </p>
+              <span class="introduce__detail--box-arrow"></span>
+            </a>
+          </div>
+          <div class="introduce__detail--box introduce-sns">
+            <h3 class="introduce__detail--box-title">K-Water SNS</h3>
+            <p class="introduce__detail--box-sns">
+              <button
+                class="introduce__detail--box-sns--button intro-youtube"
+                onclick="window.open('https://www.youtube.com')"
+                title="새창이동,유튜브"
+              ></button>
+              <button
+                class="introduce__detail--box-sns--button intro-facebook"
+                onclick="window.open('https://www.youtube.com')"
+                title="새창이동,페이스북"
+              ></button>
+              <button
+                class="introduce__detail--box-sns--button intro-instagram"
+                onclick="window.open('https://www.instagram.com')"
+                title="새창이동,인스타그램"
+              ></button>
+              <button
+                class="introduce__detail--box-sns--button intro-blog"
+                onclick="window.open('https://www.naver.com')"
+                title="새창이동,네이버 블로그"
+              ></button>
+              <button
+                class="introduce__detail--box-sns--button intro-blogpost"
+                onclick="window.open('https://section.blog.naver.com')"
+                title="새창이동,네이버 포스트"
+              ></button>
+              <button
+                class="introduce__detail--box-sns--button intro-twitter"
+                onclick="window.open('https://www.twitter.com')"
+                title="새창이동,트위터"
+              ></button>
+              <button
+                class="introduce__detail--box-sns--button intro-kakao"
+                onclick="window.open('https://www.youtube.com')"
+                title="새창이동,카카오톡"
+              ></button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="introduce__bottom-image"></div>
+    </div>
+    <!-- 위까지 됐고(?) 여기부터 해야 됨 -->
+    <div class="service">
+      <div class="service__content"></div>
+    </div>
+    <div class="news">
+      <div class="news__content"></div>
+    </div>
+    <div class="culture">
+      <div class="culture__content"></div>
+    </div>
+    <div class="recruitment">
+      <div class="recruitment__content"></div>
+    </div>
+    <footer class="page-footer">
+      <div class="page-footer__content"></div>
+    </footer>
+  </body>
+</html>
